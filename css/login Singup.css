@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Full-width input fields */
+.input{
+    width: 40%;
+    padding: 12px 20px;
+    margin: auto;
+    display:block;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+	color: #FFFFFF;
+	background-color: black;
+}
+.inputx{
+    width: 40%;
+    padding: 12px 20px;
+    margin: auto;
+    display:block;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+	color: #FFFFFF;
+	background-color: black;
+}
+/* Set a style for all buttons */
+.buttonx {
+	display:block;
+    background-color:#FF0004;
+    color: white;
+	font-weight: bolder;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+}
+
+.buttonx:hover {
+    opacity: 0.8;
+}
+
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+   
+    position: relative;
+}
+
+img.avatar {
+    width: 50%;
+	height: 200px;
+    
+}
+
+
+
+span.psw {
+    float: right;
+    padding-top:40px;
+}
+
+/* The Modal (background) */
+.login {
+   
+    width: 100%; /* Full width */
+    height: 100%; /* Full height *
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+}
+
+/* Modal Content/Box */
+.login-content {
+    background-color: #000000;
+	margin:auto;
+	
+}
+
+
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}

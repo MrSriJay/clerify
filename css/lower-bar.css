@@ -1,0 +1,44 @@
+.lower-bar{
+	
+	float: left;
+	height:300px;
+	background-color:#000000;
+	border-top: 2px #FF0004 solid;
+}
+
+.lower-bar .sub-lower{
+	float: left;
+	margin-top:20px;
+	margin-left:150px;
+	
+}
+.lower-bar .sub-lower ul h1{
+	
+	font-size: 30px;
+	font-weight: bolder;
+	color:red;
+}
+
+.lower-bar .sub-lower ul li{
+	
+	padding: 5px;
+	font-size: 15px;
+	list-style: none;
+	
+}
+
+.lower-bar .sub-lower ul li a{
+	
+	color: #727070;
+	text-decoration: none;
+	transition-property:color,font-size;
+	transition-duration:0.2s,0.2s;
+}
+
+.lower-bar .sub-lower ul li a:hover{
+	
+	color:#FF0004;
+	font-size: 17px;
+	text-decoration: none;
+	
+}

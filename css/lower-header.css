@@ -1,0 +1,15 @@
+.lower-header{
+	float: left;
+	height: 40px;
+	background:#000000;
+	
+	
+	
+}
+
+span{
+	display: inline-block;
+	padding: 10px;
+	margin-left: 45%;
+	color:#FF0004;
+}

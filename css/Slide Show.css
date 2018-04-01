@@ -1,0 +1,178 @@
+.btn-dangerx {
+  
+  color: #FF0004;
+  background-color: #000000;
+  border-color: #6F0001;
+  opacity: 0.7;
+  transition-property:color,border-color, background-color,opacity;
+  transition-duration:0.5s,0.5s,0.5s,0.5s;
+
+  
+}
+
+
+
+
+
+
+.btn-dangerx:hover {
+  color: #FFFFFF;
+  background-color: #FF0004;
+  border-color: #d43f3a;
+  opacity: 0.9
+}
+.slidetext{
+	font-family: 'Freckle Face', cursive;
+    color: #FF2700;
+	font-size: 100px;
+	font-weight: bolder;
+	
+}
+
+
+.slidetext2{
+	color: white;
+	font-size: 40px;
+	font-weight: 100;
+	font-style: oblique
+	
+
+	
+}
+
+.slide .question a{
+	display: block;
+	margin-left: 50px;
+	width: 540px;
+	height: 80px;
+	position: absolute;
+	padding-left: 20px;
+	z-index:1.5;
+	top:450px;
+	left:28%;
+	background-color:#FBFBFB;
+	opacity: 0.9;	
+	color:#32FF00;
+	font-size: 50px;
+	font-weight: bolder;
+	text-decoration: none;	
+	transition-property:color,background-color;
+	transition-duration:0.5s,0.5s;
+	border-radius: 10px;
+	
+}
+
+.slide .question a:hover{
+	
+    color: #8EF85B;
+	text-decoration: none;
+	background-color:#237800;
+	
+	
+}
+
+.slide .login{
+	position: absolute;
+	z-index:4;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+    top: 0px;
+	opacity: 0.8;
+}
+
+.slide .login .login-box{
+	position: absolute;
+	z-index:6;
+	width: 460px;
+	height: 300px;
+	background-color: red;
+	left:33%;
+	top:300px;
+	opacity:1;
+}
+
+
+.background{
+	background-color: #000000;
+	
+}
+.background h1{
+	color: #FF2700;
+	font-weight: bold;
+}
+
+.informationn{
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	background-color: #B80003;
+	border-radius: 50%;
+}
+
+
+.informationn h1{
+	
+	color: white;
+	font-family: 'Freckle Face', cursive;
+	font-weight: bolder;
+	font-size: 80px;
+	padding-top: 40px;
+}
+
+.informationn h5{
+	
+	color: white;
+	font-size: 18px;
+	
+}
+
+.heigth{margin-top:70px;}
+@media only screen and (max-width:992px){
+	  .heigth{margin-top: 250px; }
+	  } 
+@media only screen and (max-width:768px){
+	  .heigth{margin-top: 350px; }
+	  } 
+@media only screen and (max-width:576px){
+	 .heigth{margin-top: 250px;}
+	  } 
+
+
+
+
+
+/* The Modal (background) */
+.modalx {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modalx-content{
+	display: block;
+    background-color:#FF0004;
+	font-weight: bolder;
+	color: #F0F0F0;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    width: 50%;
+	height: 100px
+}
+
+.modalx-content h3{
+	
+    
+	font-weight: bolder;
+	color: #FFFFFF;
+    
+}

@@ -1,0 +1,14 @@
+
+.heading-text{
+	display: block;
+	color: #01AB15;
+	font-weight:bolder;
+	font-size:90px;
+	
+}
+
+.item-div{
+	float: left;
+	margin-left:80px;
+	margin-top: 30px;
+}

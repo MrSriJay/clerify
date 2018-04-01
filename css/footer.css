@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+.backgroundColo{
+	background-color: black;
+	border-top: red 2px solid;
+	
+}
+
+.sub-lower{
+	margin-top: 20px;
+	border-left: red 2px solid;
+	
+}
+
+.sub-lower ul h1{
+	margin-left: 20px;
+	font-size: 35px;
+	font-weight: bolder;
+	color:#FF0700;
+}
+
+.sub-lower ul li{
+	
+    margin-left: 20px;
+	font-size: 17px;
+	list-style: none;
+	
+}
+
+
+.sub-lower ul li a{
+
+	color: #D90F12;
+	text-decoration: none;
+	transition-property:color,font-size,animation-name;
+	transition-duration:0.5s,0.5s,0.5s;
+}
+
+.sub-lower ul li a:hover{
+	
+	color:#F9F9F9;
+	font-size: 24px;
+	text-decoration: none;
+	animation: shake 2s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+	
+}
+
+@keyframes shake {
+  from, to {
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.lower-header{
+
+	height: 20px;
+	background-color:#FF0004;
+	
+	
+	
+}
+
+span{
+	display: inline-block;
+	color:#929090;
+}
