@@ -93,64 +93,6 @@ include 'dbh.php';
   <!--HEADER END-->
   
 	  
-  <!--LOGIN AND SIGNUP START-->
- 		<!--LOGIN-->
- 		
-  		<div id="id01" class="modal">
-  
-			  <form class="modal-content animate" action="login.php" method="post">
-				<div class="imgcontainer">
-			  	  <h1 class="text-center" style="color: red; font-weight: bolder"><span class=" glyphicon glyphicon-log-in"></span> Login</h1>
-				  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-				  <img src="img/login.png" alt="Avatar" class="avatar">
-				</div>
-
-				<div class="container">
-				  <label  style="color: red;"><b>Username</b></label>
-				  <input type="text" placeholder="Enter Username" name="usernamelog" required class="input">
-
-				  <label style="color: red;"><b>Password</b></label>
-				  <input type="password" placeholder="Enter Password" name="passwordlog" required class="input">
-
-				  <input type="submit" class="buttonx" value="Login" name="loginSubmit" >
-				  
-				</div>
-
-			  </form>
-			</div>
-			
-			
-		<!--Signup-->
-		
-		<div id="id02" class="modal">
-
-		  <form name="signup" class="modal-content animate" method="post" action="signup.php" onsubmit="return validateForm();" >
-			<div class="imgcontainer">
-			  <h1 class="text-center" style="color: red; font-weight: bolder"><span class="glyphicon glyphicon-user" ></span> Signup</h1>
-			  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-			  <img src="img/login1.png" alt="Avatar" class="avatar">
-			</div>
-
-			<div class="container">
-			  <label  style="color: white;"><b>Name</b></label>
-			  <input type="text" placeholder="Enter Name" name="name" required class="inputx">
-			  <label  style="color: white;"><b>Email</b></label>
-			  <input type="text" placeholder="Enter Enmai" name="email" required class="inputx">
-			  <label  style="color: white;"><b>Username</b></label>
-			  <input type="text" placeholder="Enter Username" name="username" required class="inputx">
-			  <label style="color: white;"><b>Password</b></label>
-			  <input type="password" placeholder="Enter Password" name="password" required class="inputx" minlength="6">
-			  <input type="submit" class="buttonx" value="Signup" name='signupSubmit'>
-
-			</div>
-
-		  </form>
-		</div>
-
-  
-  
-  <!--LOGIN AND SIGNUP END-->
-  
   
   
   
